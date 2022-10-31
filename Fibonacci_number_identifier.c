@@ -4,11 +4,14 @@
 int main() {
 
     int myNum;
+    
+    //use data type double for larger bytes
     double num1, num2, dom1, answer;
 
     printf("Input Number Here == ");
     scanf("%d", &myNum);
 
+    //fibonacci identifier_formula
     num1 = pow(1 + sqrt(5), myNum);
     num2 = pow(1 - sqrt(5), myNum);
     dom1 = pow(2, myNum) * (sqrt(5));
