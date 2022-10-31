@@ -11,7 +11,7 @@ int main() {
     printf("Input Number Here == ");
     scanf("%d", &myNum);
 
-    //fibonacci identifier_formula
+    //fibonacci identifier formula
     num1 = pow(1 + sqrt(5), myNum);
     num2 = pow(1 - sqrt(5), myNum);
     dom1 = pow(2, myNum) * (sqrt(5));
