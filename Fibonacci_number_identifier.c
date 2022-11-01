@@ -1,3 +1,4 @@
+//This program identifies the fibonacci of user input n
 #include <stdio.h>
 #include <math.h>
 
