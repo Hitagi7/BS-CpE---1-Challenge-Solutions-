@@ -1,3 +1,4 @@
+//Pyramid number pattern
 #include <stdio.h>
 
 int main () {

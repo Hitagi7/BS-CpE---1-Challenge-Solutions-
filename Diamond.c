@@ -1,3 +1,4 @@
+//This program creates a diamond pattern
 #include <stdio.h>
 
 int main (){

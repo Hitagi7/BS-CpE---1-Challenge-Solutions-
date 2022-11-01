@@ -1,3 +1,6 @@
+/*Ask for input on how many books a user will want in a box
+each box will contain ONLY 4 books or less so if the number 
+of books is 5 the amount of boxes used will be 2*/
 #include <stdio.h>
 
 int main() {
@@ -29,3 +32,5 @@ int main() {
 
     return 0;
 }
+
+//I'm still pretty new to coding hehe

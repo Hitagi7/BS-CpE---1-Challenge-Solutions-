@@ -1,3 +1,4 @@
+//This program creates a tower (The tip and vase vary if it is odd or even)
 #include <stdio.h>
 
 int main() {
