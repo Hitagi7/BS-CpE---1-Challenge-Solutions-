@@ -16,7 +16,7 @@ int main() {
 
         if(strcmp(user_input, largest_word) > 0) 
             strcpy(largest_word, user_input);
-            
+    
         else if (strcmp(user_input, smallest_word) < 0)
             strcpy(smallest_word, user_input);
     }
@@ -25,3 +25,12 @@ int main() {
     printf("\nSmallest word: %s\n", smallest_word);
     printf("Largest word: %s\n", largest_word);
 }
+/*
+s1[] = "catg";
+s2[] = "catfe";
+strcmp(s1,s2)
+s1 == s2 returns 0
+s1 < s2 returns -1
+s1 > s2 returns 1
+*/
+
