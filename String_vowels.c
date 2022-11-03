@@ -4,11 +4,14 @@
 
 int main() {
 
-  char s[ ] = "Hello World";
+  char s[20];
 
   //An array of vowel characters
   char vowels[ ] = "aeiou";
   int x = 0, count = 0;
+
+  printf("Enter Word/Sentence/Phrase Here: ");
+  gets(s);
 
   while (x < strlen(s)) {
 
